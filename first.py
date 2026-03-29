@@ -7,7 +7,7 @@ DUMMY_USERS / DUMMY_NEWS / DUMMY_LOGS 는 임시 더미 데이터이며,
 백엔드의 database.py 와 models.py 가 완성되면
 각 함수 내부의 더미 데이터 조회 부분을 실제 DB 쿼리로 교체합니다.
 
-[DB 연동 시 교체 위치]
+[[DB 연동 시 교체 위치]]
 - get_user_interest()      → users 테이블 쿼리로 교체
 - filter_news_by_category() → news 테이블 쿼리로 교체
 - get_category_scores()    → user_logs 테이블 쿼리로 교체
